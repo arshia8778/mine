@@ -1,0 +1,105 @@
+body{
+    min-height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    background-image: 
+    repeating-linear-gradient(305deg, 
+      rgba(232,181,131, 0) 0,
+      #dcdf3f 100vmax,
+      #dcdf3f calc(100vmax - 5px),
+      #dcdf3f 100vmax
+    ),
+    repeating-linear-gradient(220deg, 
+      rgba(232,181,131, 0) 0,
+      #cf6959 10vmax,
+      #cf6959 calc(10vmax - 5px),
+      #cf6959 10vmax
+    );
+  
+  background-color: #e8b583;
+  background-size: 100% 100%;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(11, 10, 10);
+    margin-left: 12vh;
+    width: 130vh;
+    height: 70vh;
+    border-radius: 5px;
+    border: 1px solid #cf6959;
+}
+
+
+.page-1-1{
+    /* background-color: cornflowerblue; */
+background-image: url('IMG_۲۰۲۳۱۱۰۱_۲۲۲۶۱۹.jpg');
+    border: 2px solid #cf6959;;
+    background-size: cover;
+    border-radius: 5px;
+    width: 55vh;
+    height: 73vh;
+}
+
+.page-1-1:hover{
+    border: 3px solid #cf6959;
+    box-shadow: 0 0 5px 1px #cf6959, 0 0 5px 3px #cf6959;
+    transform : scale(1.1) perspective(1500px) rotateY(13deg);
+    transition: all 0.5s;
+
+}
+
+.page-2{
+    width: 75vh;
+    height: 70vh;
+}
+
+
+.page-2-icons{
+background-color: black;
+color: #fff;
+list-style-type: none;
+border-radius: 5px;
+text-align: center;
+border: 1px solid #cf6959;
+}
+
+
+li{
+    border-radius: 3px;
+}
+
+
+
+li:hover{
+transform: scale3d(1.45, 1.4, 1.4);
+transition: all 0.5s;
+background-color: rgb(220, 156, 17);
+box-shadow: 0 0 5px 1px #cf6959, 0 0 5px 3px #cf6959;
+}
+
+
+button{
+margin-top: 2.5vh;
+background-color: black;
+color: #fff;
+font-size: 130%;
+padding: 10px 20px 10px 20px;
+display: flex;
+text-align: center;
+border: 1px solid #cf6959;
+border-radius: 5px;
+}
+
+button:hover{
+    transform: scale3d(1.3, 1.3, 1.3);
+transition: all 0.5s;
+background-color: rgb(220, 156, 17);
+box-shadow: 0 0 5px 1px #cf6959, 0 0 5px 3px #cf6959;
+}
